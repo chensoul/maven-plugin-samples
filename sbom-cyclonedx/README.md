@@ -1,16 +1,21 @@
-# SBOM
+# Sbom-cyclonedx
 
-There are Slides for this - look at them
+Creates CycloneDX Software Bill of Materials (SBOM) from Maven projects
+
+# Usage
 
 Look at pom dependencies and then run
+
 ```bash
 mvn dependency:tree
 ```
 
 Build project and get sbom
+
 ```bash
 mvn package
 ```
 
-Online viewer
-    https://apps.rancher.io/sbom-viewer 
+# Links
+
+- https://apps.rancher.io/sbom-viewer 
